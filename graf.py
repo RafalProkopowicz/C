@@ -12,7 +12,7 @@ k = 0
 for x in range(0, size):
     print(tab[x])
 
-# przejscie po kazdym elemencie
+# przejscie po tablicy
 for x in range(0, size):
     for y in range(x + 1, size):
         if tab[x][y] == 1:
